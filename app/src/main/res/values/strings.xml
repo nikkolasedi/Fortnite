@@ -94,4 +94,12 @@
     <string name="title_activity_scrolling3">ScrollingActivity3</string>
     <string name="title_activity_epic_backblings">EpicBackblings</string>
     <string name="title_activity_legendary_backblings">LegendaryBackblings</string>
+    <string name="title_activity_emotes">Emotes</string>
+    <string name="_1_hp">1 HP!</string>
+    <string name="six_strings">Six Strings</string>
+    <string name="title_activity_common_gliders">CommonGliders</string>
+    <string name="title_activity_uncommon_gliders">UncommonGliders</string>
+    <string name="title_activity_rare_gliders">RareGliders</string>
+    <string name="title_activity_epic_gliders">EpicGliders</string>
+    <string name="title_activity_legendary_gliders">LegendaryGliders</string>
 </resources>

@@ -23,15 +23,6 @@
         android:typeface="normal" />
 
     <Button
-        android:id="@+id/btnEmotes"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:height="50dp"
-        android:text="Emotes"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:typeface="normal" />
-
-    <Button
         android:id="@+id/btnGliders"
         android:layout_width="match_parent"
         android:layout_height="100dp"

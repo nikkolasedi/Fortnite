@@ -29,13 +29,29 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
+        //Creating Buttons
         Button btnBackblings = (Button) findViewById(R.id.btnBackblings);
+        Button btnGliders = (Button) findViewById(R.id.btnGliders);
+        Button btnLoadingScreens = (Button) findViewById(R.id.btnLoadingScreens);
+        Button btnPickaxes = (Button) findViewById(R.id.btnPickaxes);
+        Button btnSkins = (Button) findViewById(R.id.btnSkins);
+        Button btnSprays = (Button) findViewById(R.id.btnSprays);
+
+
         btnBackblings.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-                    openAnotherActivity("Backblings");
-                }
+                openAnotherActivity("Backblings");
             }
-        );
+
+        });
+
+        btnGliders.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("Gliders");
+            }
+        });
 
     }
 

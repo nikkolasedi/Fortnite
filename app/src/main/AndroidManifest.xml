@@ -37,6 +37,31 @@
         <activity
             android:name=".LegendaryBackblings"
             android:label="@string/title_activity_legendary_backblings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Emotes"
+            android:label="@string/title_activity_emotes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Gliders" />
+        <activity
+            android:name=".CommonGliders"
+            android:label="@string/title_activity_common_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UncommonGliders"
+            android:label="@string/title_activity_uncommon_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RareGliders"
+            android:label="@string/title_activity_rare_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EpicGliders"
+            android:label="@string/title_activity_epic_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LegendaryGliders"
+            android:label="@string/title_activity_legendary_gliders"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
