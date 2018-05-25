@@ -14,30 +14,47 @@
     android:orientation="vertical">
 
     <Button
-    android:id="@+id/button1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Button" />
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:background="@android:color/black"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/background_light"
+        android:typeface="normal" />
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:typeface="normal" />
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:typeface="normal" />
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:typeface="normal" />
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:typeface="normal" />
 </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
