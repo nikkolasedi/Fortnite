@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ScrollingActivity2"
+            android:name=".Backblings"
             android:label="Test2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ScrollingActivity3"
+            android:name=".RareBackblings"
             android:label="Test3"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PopUpActivity"

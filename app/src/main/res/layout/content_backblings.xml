@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ScrollingActivity2"
-    tools:showIn="@layout/activity_scrolling2">
+    tools:context=".Backblings"
+    tools:showIn="@layout/activity_backblings">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,30 +14,25 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btnRareBackblings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Rare Backblings"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnEpicBackblings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Epic Backblings"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnLegendaryBackblings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Legendary Backblings"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

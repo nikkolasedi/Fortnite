@@ -29,10 +29,10 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
-        Button button1 = (Button) findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
+        Button btnBackblings = (Button) findViewById(R.id.btnBackblings);
+        btnBackblings.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                    openAnotherActivity("ScrollingActivity2");
+                    openAnotherActivity("Backblings");
                 }
             }
         );
@@ -70,7 +70,7 @@ public class MainMenu extends AppCompatActivity {
         }
 }
     public void openAnotherActivity(){
-        Intent intent = new Intent(this, ScrollingActivity2.class);
+        Intent intent = new Intent(this, Backblings.class);
         startActivity(intent);
 
     }
