@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ScrollingActivity"
-    tools:showIn="@layout/activity_scrolling">
+    tools:context=".MainMenu"
+    tools:showIn="@layout/activity_main_menu">
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -14,45 +14,65 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnBackblings"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:height="50dp"
-        android:background="@android:color/black"
-        android:text="Button"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="@android:color/background_light"
-        android:typeface="normal" />
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:height="50dp"
-        android:text="Button"
+        android:text="Backblings"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:typeface="normal" />
+
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnEmotes"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:height="50dp"
-        android:text="Button"
+        android:text="Emotes"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:typeface="normal" />
+
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnGliders"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:height="50dp"
-        android:text="Button"
+        android:text="Gliders"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:typeface="normal" />
+
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnLoadingScreens"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:height="50dp"
-        android:text="Button"
+        android:text="Loading Screens"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/btnPickaxes"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:text="Pickaxes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/btnSkins"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:text="Skins"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/btnSprays"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:text="Sprays"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:typeface="normal" />
 </LinearLayout>

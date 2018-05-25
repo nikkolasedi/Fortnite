@@ -9,12 +9,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class ScrollingActivity2 extends AppCompatActivity {
+public class Backblings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scrolling2);
+        setContentView(R.layout.activity_backblings);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -26,10 +26,10 @@ public class ScrollingActivity2 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Button button1 = (Button) findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
+        Button btnRareBackblings = (Button) findViewById(R.id.btnRareBackblings);
+        btnRareBackblings.setOnClickListener(new View.OnClickListener() {
                                        public void onClick(View v) {
-                                           openAnotherActivity("ScrollingActivity3");
+                                           openAnotherActivity("RareBackblings");
                                        }
                                    }
         );
