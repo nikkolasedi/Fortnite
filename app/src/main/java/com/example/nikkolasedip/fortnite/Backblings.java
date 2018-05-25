@@ -26,14 +26,36 @@ public class Backblings extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        //Creating Buttons
         Button btnRareBackblings = (Button) findViewById(R.id.btnRareBackblings);
+        Button btnEpicBackblings = (Button) findViewById(R.id.btnEpicBackblings);
+        Button btnLegendaryBackblings = (Button) findViewById(R.id.btnLegendaryBackblings);
+
+        //Creating OnClickListener for Buttons
         btnRareBackblings.setOnClickListener(new View.OnClickListener() {
-                                       public void onClick(View v) {
-                                           openAnotherActivity("RareBackblings");
-                                       }
-                                   }
-        );
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("RareBackblings");
+            }
+        });
+
+        btnEpicBackblings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("EpicBackblings");
+            }
+        });
+
+        btnLegendaryBackblings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("LegendaryBackblings");
+            }
+        });
     }
+
+    //Creating openAnotherActivity method
     public void openAnotherActivity(String activityName){
         try {
             Class<?> activityClass = Class.forName("com.example.nikkolasedip.fortnite."+activityName);

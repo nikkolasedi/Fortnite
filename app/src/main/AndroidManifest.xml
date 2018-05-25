@@ -27,8 +27,17 @@
             android:name=".RareBackblings"
             android:label="Test3"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PopUpActivity"
-            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".PopUpActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".EpicBackblings"
+            android:label="@string/title_activity_epic_backblings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LegendaryBackblings"
+            android:label="@string/title_activity_legendary_backblings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -92,4 +92,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_scrolling2">ScrollingActivity2</string>
     <string name="title_activity_scrolling3">ScrollingActivity3</string>
+    <string name="title_activity_epic_backblings">EpicBackblings</string>
+    <string name="title_activity_legendary_backblings">LegendaryBackblings</string>
 </resources>
