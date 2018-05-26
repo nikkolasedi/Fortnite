@@ -6,6 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Test"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -62,7 +63,17 @@
         <activity
             android:name=".LegendaryGliders"
             android:label="@string/title_activity_legendary_gliders"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pickaxes" />
+        <activity
+            android:name=".UncommonPickaxes"
+            android:label="@string/title_activity_uncommon_pickaxes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RarePickaxes"
+            android:label="@string/title_activity_rare_pickaxes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EpicPickaxes"></activity>
     </application>
 
 </manifest>

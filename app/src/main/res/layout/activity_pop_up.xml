@@ -8,8 +8,8 @@
     android:background="#C0000000">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/giphy6"/>
-
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fortnite_back_bling_precision" />
 </RelativeLayout>

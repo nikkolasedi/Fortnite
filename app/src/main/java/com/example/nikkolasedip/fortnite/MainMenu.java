@@ -37,7 +37,7 @@ public class MainMenu extends AppCompatActivity {
         Button btnSkins = (Button) findViewById(R.id.btnSkins);
         Button btnSprays = (Button) findViewById(R.id.btnSprays);
 
-
+        //Creating OnclickListener
         btnBackblings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,6 +50,13 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openAnotherActivity("Gliders");
+            }
+        });
+
+        btnPickaxes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("Pickaxes");
             }
         });
 
