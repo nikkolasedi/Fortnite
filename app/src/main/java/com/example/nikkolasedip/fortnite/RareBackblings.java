@@ -18,14 +18,7 @@ public class RareBackblings extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
         ImageButton imageButton1 = (ImageButton) findViewById(R.id.imageButton1);
         imageButton1.setOnClickListener(new View.OnClickListener() {
                                        public void onClick(View v) {

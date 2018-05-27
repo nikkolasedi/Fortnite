@@ -1,46 +1,7 @@
 <resources>
     <string name="app_name">Fortnite</string>
     
-    <string-array name="epic_pickaxes">
-        <item>ACDC</item>
-        <item>Bitemark</item>
-        <item>Bottom Feeder</item>
-        <item>Chomp Jr</item>
-        <item>Eva</item>
-        <item>Global Axe</item>
-        <item>Onslaught</item>
-        <item>Pick Squeak</item>
-        <item>Pot o Gold</item>
-        <item>Rainbow Smash</item>
-        <item>Renegade Roller</item>
-        <item>Candy Axe</item>
-        <item>Death Valley</item>
-        <item>Disco Brawl</item>
-        <item>Party Animal</item>
-        <item>Pink Flamingo</item>
-        <item>Raiders Revenge</item>
-        <item>Trusty no. 2</item>
-    </string-array>
-    <array name="epic_pickaxe_images">
-        <item>@drawable/fortnite_harvesting_acdc_768x629</item>
-        <item>@drawable/fortnite_harvesting_bitemark</item>
-        <item>@drawable/fortnite_harvesting_bottom_feeder</item>
-        <item>@drawable/fortnite_harvesting_chomp_jr</item>
-        <item>@drawable/fortnite_harvesting_eva_hd</item>
-        <item>@drawable/fortnite_harvesting_global_axe_full</item>
-        <item>@drawable/fortnite_harvesting_onslaught</item>
-        <item>@drawable/fortnite_harvesting_pick_squeak</item>
-        <item>@drawable/fortnite_harvesting_pot_o_gold</item>
-        <item>@drawable/fortnite_harvesting_rainbow_smash</item>
-        <item>@drawable/fortnite_harvesting_renegade_roller</item>
-        <item>@drawable/fortnite_harvesting_tool_candy_axe_768x629</item>
-        <item>@drawable/fortnite_harvesting_tool_death_valley</item>
-        <item>@drawable/fortnite_harvesting_tool_disco_brawl</item>
-        <item>@drawable/fortnite_harvesting_tool_party_animal</item>
-        <item>@drawable/fortnite_harvesting_tool_pink_flamingo</item>
-        <item>@drawable/fortnite_harvesting_tool_raiders_revenge_768x629</item>
-        <item>@drawable/fortnite_harvesting_trusty_no_2_hd</item>
-    </array>
+
     
 
     <string name="action_settings">Settings</string>
