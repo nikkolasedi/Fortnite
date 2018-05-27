@@ -3,8 +3,8 @@
     package="com.example.nikkolasedip.fortnite">
 
     <application
-        android:hardwareAccelerated="true"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Test"
         android:largeHeap="true"
@@ -74,7 +74,14 @@
             android:name=".RarePickaxes"
             android:label="@string/title_activity_rare_pickaxes"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".EpicPickaxes"></activity>
+        <activity
+            android:name=".EpicPickaxes"
+            android:label="@string/title_activity_epic_pickaxes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoadingScreens"
+            android:label="@string/title_activity_loading_screens"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

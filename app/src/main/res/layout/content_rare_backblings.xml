@@ -32,7 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:background="?attr/actionBarDivider"
-                    android:scaleType="centerInside"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/fortnite_back_bling_royale_shield" />
 
                 <TextView
@@ -56,7 +56,7 @@
                     android:layout_height="196dp"
                     android:background="?attr/actionBarDivider"
                     android:cropToPadding="false"
-                    android:scaleType="centerInside"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/fortnite_back_bling_precision" />
 
                 <TextView
@@ -96,7 +96,7 @@
                     android:layout_height="196dp"
                     android:background="?attr/actionBarDivider"
                     android:cropToPadding="false"
-                    android:scaleType="fitStart"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/fortnite_back_bling_standard_issue" />
 
                 <TextView

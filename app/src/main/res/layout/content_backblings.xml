@@ -11,12 +11,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:layout_marginTop="60dp"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btnRareBackblings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#570027ff"
             android:text="Rare Backblings"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
@@ -24,6 +27,7 @@
             android:id="@+id/btnEpicBackblings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:text="Epic Backblings"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
@@ -31,6 +35,7 @@
             android:id="@+id/btnLegendaryBackblings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
             android:text="Legendary Backblings"
             android:textAppearance="@style/TextAppearance.AppCompat" />
     </LinearLayout>

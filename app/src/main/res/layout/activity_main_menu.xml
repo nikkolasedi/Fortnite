@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="#4ABDAC"
+    android:background="#EFEFEF"
     tools:context=".MainMenu">
 
     <include
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Fortnite Skins"
-        android:textColor="#DFDCE3"
+        android:textColor="#A9A9A9"
         android:textSize="45sp"
         android:textStyle="bold" />
 

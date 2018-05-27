@@ -19,7 +19,7 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_harvesting_anarchy_axe_hd" />
 
@@ -63,7 +63,7 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_harvesting_axeroni" />
 
@@ -107,7 +107,7 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_harvesting_cutting_edge" />
 
@@ -151,9 +151,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_tactical_spade" />
+                app:srcCompat="@drawable/fortnite_harvesting_empire_axe" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -161,7 +161,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_you_shouldnt_have_768x629" />
+                app:srcCompat="@drawable/fortnite_harvesting_gale_force" />
 
         </TableRow>
 
@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tactical Spade"
+                android:text="Empire Axe"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -184,7 +184,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="You Shouldn't Have"
+                android:text="Gale Force"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -195,9 +195,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_ice_breaker" />
+                app:srcCompat="@drawable/fortnite_harvesting_glow_stick" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -205,7 +205,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_lucky" />
+                app:srcCompat="@drawable/fortnite_harvesting_instigator" />
 
         </TableRow>
 
@@ -219,7 +219,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Icebreaker"
+                android:text="Glolwstick"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -228,7 +228,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Lucky"
+                android:text="Instigator"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -239,9 +239,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_tactical_spade" />
+                app:srcCompat="@drawable/fortnite_harvesting_lollipopper" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -249,7 +249,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_you_shouldnt_have_768x629" />
+                app:srcCompat="@drawable/fortnite_harvesting_persuader_full" />
 
         </TableRow>
 
@@ -263,7 +263,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tactical Spade"
+                android:text="Lollipoper"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -272,7 +272,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="You Shouldn't Have"
+                android:text="Persuader"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -283,9 +283,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_ice_breaker" />
+                app:srcCompat="@drawable/fortnite_harvesting_plunja" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -293,7 +293,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_lucky" />
+                app:srcCompat="@drawable/fortnite_harvesting_positron" />
 
         </TableRow>
 
@@ -307,7 +307,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Icebreaker"
+                android:text="Plunja"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -316,7 +316,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Lucky"
+                android:text="Positron"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -327,9 +327,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_tactical_spade" />
+                app:srcCompat="@drawable/fortnite_harvesting_sawtooth_hd" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -337,7 +337,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_you_shouldnt_have_768x629" />
+                app:srcCompat="@drawable/fortnite_harvesting_silver_fang" />
 
         </TableRow>
 
@@ -351,7 +351,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tactical Spade"
+                android:text="Sawtooth"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -360,7 +360,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="You Shouldn't Have"
+                android:text="Silverfang"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -371,9 +371,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_ice_breaker" />
+                app:srcCompat="@drawable/fortnite_harvesting_ski_boot" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -381,7 +381,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_lucky" />
+                app:srcCompat="@drawable/fortnite_harvesting_spectre_full" />
 
         </TableRow>
 
@@ -395,7 +395,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Icebreaker"
+                android:text="Ski Boot"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -404,7 +404,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Lucky"
+                android:text="Spectre"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -415,9 +415,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_tactical_spade" />
+                app:srcCompat="@drawable/fortnite_harvesting_spiky" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -425,7 +425,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_you_shouldnt_have_768x629" />
+                app:srcCompat="@drawable/fortnite_harvesting_tactical_spectral_axe" />
 
         </TableRow>
 
@@ -434,12 +434,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/Spiky"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tactical Spade"
+                android:text="Spiky"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -448,7 +448,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="You Shouldn't Have"
+                android:text="Tactical Spectral Axe"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -459,9 +459,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_ice_breaker" />
+                app:srcCompat="@drawable/fortnite_harvesting_tat_axe_768x629" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -469,7 +469,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_lucky" />
+                app:srcCompat="@drawable/fortnite_harvesting_tenderizer" />
 
         </TableRow>
 
@@ -483,7 +483,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Icebreaker"
+                android:text="Tat Axe"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -492,7 +492,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Lucky"
+                android:text="Tenderizer"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -503,9 +503,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_tactical_spade" />
+                app:srcCompat="@drawable/fortnite_harvesting_tool_axecalibur_768x629" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -513,7 +513,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_you_shouldnt_have_768x629" />
+                app:srcCompat="@drawable/fortnite_harvesting_tool_batsickle" />
 
         </TableRow>
 
@@ -527,7 +527,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tactical Spade"
+                android:text="Axecalibur"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -536,7 +536,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="You Shouldn't Have"
+                android:text="Batsickle"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -547,9 +547,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_ice_breaker" />
+                app:srcCompat="@drawable/fortnite_harvesting_tool_cliffhanger" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -557,7 +557,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_lucky" />
+                app:srcCompat="@drawable/fortnite_harvesting_tool_close_shave" />
 
         </TableRow>
 
@@ -571,7 +571,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Icebreaker"
+                android:text="Cliffhanger"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -580,7 +580,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Lucky"
+                android:text="Close Shave"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 
@@ -591,9 +591,9 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/fortnite_harvesting_tactical_spade" />
+                app:srcCompat="@drawable/fortnite_harvesting_tool_reaper_768x629" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -601,7 +601,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
-                app:srcCompat="@drawable/fortnite_harvesting_you_shouldnt_have_768x629" />
+                app:srcCompat="@drawable/fortnite_harvesting_tooth_pick" />
 
         </TableRow>
 
@@ -615,7 +615,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tactical Spade"
+                android:text="Reaper "
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <TextView
@@ -624,7 +624,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="You Shouldn't Have"
+                android:text="Toothpick"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
         </TableRow>
 

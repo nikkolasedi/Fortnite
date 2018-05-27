@@ -17,8 +17,8 @@ public class MainMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
 
         //Creating Buttons
@@ -49,6 +49,13 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openAnotherActivity("Pickaxes");
+            }
+        });
+
+        btnLoadingScreens.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("LoadingScreens");
             }
         });
 
