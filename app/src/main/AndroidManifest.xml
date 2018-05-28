@@ -4,14 +4,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="Test"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon_founders_badge"
+        android:label="Fortnite Skins"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/icon_founders_badge"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".MainMenu"
-            android:label="Test"
+            android:label="Fortnite Skins"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,8 +29,83 @@
             android:name=".RareBackblings"
             android:label="Test3"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PopUpActivity"
-            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".PopUpActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".EpicBackblings"
+            android:label="@string/title_activity_epic_backblings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LegendaryBackblings"
+            android:label="@string/title_activity_legendary_backblings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Emotes"
+            android:label="@string/title_activity_emotes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Gliders" />
+        <activity
+            android:name=".CommonGliders"
+            android:label="@string/title_activity_common_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UncommonGliders"
+            android:label="@string/title_activity_uncommon_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RareGliders"
+            android:label="@string/title_activity_rare_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EpicGliders"
+            android:label="@string/title_activity_epic_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LegendaryGliders"
+            android:label="@string/title_activity_legendary_gliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pickaxes" />
+        <activity
+            android:name=".UncommonPickaxes"
+            android:label="@string/title_activity_uncommon_pickaxes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RarePickaxes"
+            android:label="@string/title_activity_rare_pickaxes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EpicPickaxes"
+            android:label="@string/title_activity_epic_pickaxes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoadingScreens"
+            android:label="@string/title_activity_loading_screens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Skins"
+            android:label="@string/title_activity_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DefaultSkins"
+            android:label="@string/title_activity_default_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UncommonSkins"
+            android:label="@string/title_activity_uncommmon_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RareSkins"
+            android:label="@string/title_activity_rare_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EpicSkins"
+            android:label="@string/title_activity_epic_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LegendarySkins"
+            android:label="@string/title_activity_legendary_skins"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

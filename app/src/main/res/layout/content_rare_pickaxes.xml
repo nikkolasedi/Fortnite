@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RarePickaxes"
+    android:layout_marginTop="100dp"
+    tools:showIn="@layout/activity_rare_pickaxes">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_anarchy_axe_hd" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_autocleave_full" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Anarchy"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Autocleave"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_axeroni" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_carrot_stick" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Axeroni"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Carrot Stick"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_cutting_edge" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_dragon_axe_768x629" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Cutting Edge "
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Dragon Axe"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_empire_axe" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_gale_force" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Empire Axe"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Gale Force"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_glow_stick" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_instigator" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Glolwstick"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Instigator"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_lollipopper" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_persuader_full" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Lollipoper"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Persuader"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_plunja" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_positron" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Plunja"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Positron"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_sawtooth_hd" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_silver_fang" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sawtooth"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Silverfang"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_ski_boot" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_spectre_full" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Ski Boot"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Spectre"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_spiky" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_tactical_spectral_axe" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Spiky"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Spiky"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tactical Spectral Axe"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_tat_axe_768x629" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_tenderizer" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tat Axe"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tenderizer"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_tool_axecalibur_768x629" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_tool_batsickle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Axecalibur"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Batsickle"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_tool_cliffhanger" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_tool_close_shave" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Cliffhanger"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Close Shave"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_harvesting_tool_reaper_768x629" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                app:srcCompat="@drawable/fortnite_harvesting_tooth_pick" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Reaper "
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Toothpick"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

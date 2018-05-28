@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">Fortnite</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling2">ScrollingActivity2</string>
+    <string name="title_activity_scrolling3">ScrollingActivity3</string>
+    <string name="title_activity_epic_backblings">EpicBackblings</string>
+    <string name="title_activity_legendary_backblings">LegendaryBackblings</string>
+    <string name="title_activity_emotes">Emotes</string>
+    <string name="_1_hp">1 HP!</string>
+    <string name="six_strings">Six Strings</string>
+    <string name="title_activity_common_gliders">CommonGliders</string>
+    <string name="title_activity_uncommon_gliders">UncommonGliders</string>
+    <string name="title_activity_rare_gliders">RareGliders</string>
+    <string name="title_activity_epic_gliders">EpicGliders</string>
+    <string name="title_activity_legendary_gliders">LegendaryGliders</string>
+    <string name="title_activity_uncommon_pickaxes">UncommonPickaxes</string>
+    <string name="title_activity_rare_pickaxes">RarePickaxes</string>
+    <string name="title_activity_epic_pickaxes">EpicPickaxes</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -89,7 +107,11 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_scrolling2">ScrollingActivity2</string>
-    <string name="title_activity_scrolling3">ScrollingActivity3</string>
+    <string name="title_activity_loading_screens">LoadingScreens</string>
+    <string name="title_activity_skins">Skins</string>
+    <string name="title_activity_default_skins">DefaultSkins</string>
+    <string name="title_activity_uncommmon_skins">UncommmonSkins</string>
+    <string name="title_activity_rare_skins">RareSkins</string>
+    <string name="title_activity_epic_skins">EpicSkins</string>
+    <string name="title_activity_legendary_skins">LegendarySkins</string>
 </resources>

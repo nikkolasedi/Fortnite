@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:background="#EFEFEF"
+    tools:context=".Gliders">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fortnite Skins"
+        android:textColor="#A9A9A9"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLegendaryGliders"
+        android:layout_width="282dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Legendary Gliders"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEpicGliders" />
+
+    <Button
+        android:id="@+id/btnEpicGliders"
+        android:layout_width="282dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Epic Gliders"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRareGliders" />
+
+    <Button
+        android:id="@+id/btnUncommonGliders"
+        android:layout_width="282dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Uncommon Gliders"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCommonGliders" />
+
+    <Button
+        android:id="@+id/btnRareGliders"
+        android:layout_width="282dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Rare Gliders"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUncommonGliders" />
+
+    <Button
+        android:id="@+id/btnCommonGliders"
+        android:layout_width="282dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:text="Common Gliders"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

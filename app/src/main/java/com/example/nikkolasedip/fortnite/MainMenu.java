@@ -17,25 +17,53 @@ public class MainMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+
+        //Creating Buttons
+        Button btnBackblings = (Button) findViewById(R.id.btnBackblings);
+        Button btnGliders = (Button) findViewById(R.id.btnGliders);
+        Button btnLoadingScreens = (Button) findViewById(R.id.btnLoadingScreens);
+        Button btnPickaxes = (Button) findViewById(R.id.btnPickaxes);
+        Button btnSkins = (Button) findViewById(R.id.btnSkins);
+
+        //Creating OnclickListener
+        btnBackblings.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                openAnotherActivity("Backblings");
+            }
+
+        });
+
+        btnGliders.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("Gliders");
             }
         });
 
-        Button btnBackblings = (Button) findViewById(R.id.btnBackblings);
-        btnBackblings.setOnClickListener(new View.OnClickListener() {
+        btnPickaxes.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-                    openAnotherActivity("Backblings");
-                }
+                openAnotherActivity("Pickaxes");
             }
-        );
+        });
+
+        btnLoadingScreens.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("LoadingScreens");
+            }
+        });
+
+        btnSkins.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("Skins");
+            }
+        });
 
     }
 
@@ -68,10 +96,5 @@ public class MainMenu extends AppCompatActivity {
         } catch (ClassNotFoundException e ) {
             e.printStackTrace();
         }
-}
-    public void openAnotherActivity(){
-        Intent intent = new Intent(this, Backblings.class);
-        startActivity(intent);
-
     }
 }

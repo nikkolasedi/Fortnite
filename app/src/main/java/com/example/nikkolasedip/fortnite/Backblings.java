@@ -15,25 +15,40 @@ public class Backblings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_backblings);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+
+
+        //Creating Buttons
+        Button btnRareBackblings = (Button) findViewById(R.id.btnRareBackblings);
+        Button btnEpicBackblings = (Button) findViewById(R.id.btnEpicBackblings);
+        Button btnLegendaryBackblings = (Button) findViewById(R.id.btnLegendaryBackblings);
+
+        //Creating OnClickListener for Buttons
+        btnRareBackblings.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                openAnotherActivity("RareBackblings");
             }
         });
-        Button btnRareBackblings = (Button) findViewById(R.id.btnRareBackblings);
-        btnRareBackblings.setOnClickListener(new View.OnClickListener() {
-                                       public void onClick(View v) {
-                                           openAnotherActivity("RareBackblings");
-                                       }
-                                   }
-        );
+
+        btnEpicBackblings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("EpicBackblings");
+            }
+        });
+
+        btnLegendaryBackblings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("LegendaryBackblings");
+            }
+        });
     }
+
+    //Creating openAnotherActivity method
     public void openAnotherActivity(String activityName){
         try {
             Class<?> activityClass = Class.forName("com.example.nikkolasedip.fortnite."+activityName);
@@ -42,4 +57,5 @@ public class Backblings extends AppCompatActivity {
         } catch (ClassNotFoundException e ) {
             e.printStackTrace();
         }
-}}
+    }
+}

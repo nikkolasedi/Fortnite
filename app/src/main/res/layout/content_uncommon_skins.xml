@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UncommonSkins"
+
+    tools:showIn="@layout/activity_uncommon_skins">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fortnite Skins"
+                android:textColor="#A9A9A9"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_assault_trooper" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_commando" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Assault Trooper" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Commando" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_crimson_scout" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_devestrator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Crimson Scout" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Devestator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_dominator_1" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_highrise_assault_trooper" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Dominator" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Highrise Assault Trooper" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_jungle_scout" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_lite_show_full" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Jungle Scout" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Lite Show" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_nitelite_full" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_nog_ops_hd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Nitelite" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Nog Ops" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_pathfinder" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_ranger" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Pathfinder" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Ranger" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_renegade" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_scarlet_defender" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Renegade" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Scarlet Defender" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_scout" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_sgt_green_clover" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Scout" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sgt. Green Clover" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_tactics_officer" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_tower_recon_specialist" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tactics Officer" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tower Recon Specialist" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_tracker" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_trooper" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Tracker" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Trooper" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_whiplash_full" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fortnite_outfit_yuletide_ranger_hd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Whiplash" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Yuletide Ranger" />
+        </TableRow>
+
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>
