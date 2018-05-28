@@ -81,6 +81,30 @@
         <activity
             android:name=".LoadingScreens"
             android:label="@string/title_activity_loading_screens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Skins"
+            android:label="@string/title_activity_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DefaultSkins"
+            android:label="@string/title_activity_default_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UncommonSkins"
+            android:label="@string/title_activity_uncommmon_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RareSkins"
+            android:label="@string/title_activity_rare_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EpicSkins"
+            android:label="@string/title_activity_epic_skins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LegendarySkins"
+            android:label="@string/title_activity_legendary_skins"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

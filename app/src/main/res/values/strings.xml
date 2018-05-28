@@ -108,4 +108,10 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_loading_screens">LoadingScreens</string>
+    <string name="title_activity_skins">Skins</string>
+    <string name="title_activity_default_skins">DefaultSkins</string>
+    <string name="title_activity_uncommmon_skins">UncommmonSkins</string>
+    <string name="title_activity_rare_skins">RareSkins</string>
+    <string name="title_activity_epic_skins">EpicSkins</string>
+    <string name="title_activity_legendary_skins">LegendarySkins</string>
 </resources>

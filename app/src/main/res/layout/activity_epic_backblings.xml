@@ -7,6 +7,16 @@
     android:fitsSystemWindows="true"
     tools:context=".EpicBackblings">
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fortnite Skins"
+        android:textColor="#A9A9A9"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
     <include layout="@layout/content_epic_backblings" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -27,7 +27,6 @@ public class MainMenu extends AppCompatActivity {
         Button btnLoadingScreens = (Button) findViewById(R.id.btnLoadingScreens);
         Button btnPickaxes = (Button) findViewById(R.id.btnPickaxes);
         Button btnSkins = (Button) findViewById(R.id.btnSkins);
-        Button btnSprays = (Button) findViewById(R.id.btnSprays);
 
         //Creating OnclickListener
         btnBackblings.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +55,13 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openAnotherActivity("LoadingScreens");
+            }
+        });
+
+        btnSkins.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("Skins");
             }
         });
 
