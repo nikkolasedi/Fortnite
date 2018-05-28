@@ -8,8 +8,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class RareBackblings extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,14 +22,49 @@ public class RareBackblings extends AppCompatActivity {
         //setSupportActionBar(toolbar);
 
 
-        ImageButton imageButton1 = (ImageButton) findViewById(R.id.imageButton1);
+        final ImageButton imageButton1 = (ImageButton) findViewById(R.id.imageButton1);
+        final ImageButton imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
+        final ImageButton imageButton3 = (ImageButton) findViewById(R.id.imageButton3);
+
         imageButton1.setOnClickListener(new View.OnClickListener() {
                                        public void onClick(View v) {
-                                           openAnotherActivity("PopUpActivity");
+                                           send(imageButton1, "fortnite_back_bling_precision" );
+                                           //openAnotherActivity("PopUpActivity");
+
                                        }
                                    }
         );
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+                                            public void onClick(View v) {
+                                                send(imageButton2, "fortnite_back_bling_royale_shield" );
+                                                //openAnotherActivity("PopUpActivity");
+
+                                            }
+                                        }
+        );
+        imageButton3.setOnClickListener(new View.OnClickListener() {
+                                            public void onClick(View v) {
+                                                send(imageButton3, "fortnite_back_bling_standard_issue" );
+                                                //openAnotherActivity("PopUpActivity");
+
+                                            }
+                                        }
+        );
+
+
+
+
     }
+    //Open another activity and send image from current activity to targeted activity by the name of image
+    public void send(View v, String imageName){
+        int resID = getResources().getIdentifier(imageName, "drawable", getPackageName());
+
+        Intent i = new Intent(RareBackblings.this, PopUpActivity.class);
+
+        i.putExtra("resId", resID);
+        startActivity(i);
+   }
+
     public void openAnotherActivity(String activityName){
         try {
             Class<?> activityClass = Class.forName("com.example.nikkolasedip.fortnite."+activityName);
