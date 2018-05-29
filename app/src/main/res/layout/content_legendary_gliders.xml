@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView3"
+        <ImageButton
+            android:id="@+id/imageButton3"
             android:layout_width="match_parent"
             android:layout_height="369dp"
             app:srcCompat="@drawable/fortnite_glider_royale_dragon_768x629" />

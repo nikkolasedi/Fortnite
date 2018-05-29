@@ -3,7 +3,7 @@ package com.example.nikkolasedip.fortnite;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 
 public class PopUpActivity extends AppCompatActivity {
 
@@ -19,11 +19,11 @@ public class PopUpActivity extends AppCompatActivity {
 
         getWindow().setLayout((int)(width*.8),(int)(height*.6));
 
-        ImageView imageView = (ImageView) findViewById(R.id.imageView4);
+        ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton4);
         Bundle bundle = getIntent().getExtras();
         if(bundle != null){
             int resid = bundle.getInt("resId");
-            imageView.setImageResource(resid);
+            imageButton.setImageResource(resid);
         }
 
     }

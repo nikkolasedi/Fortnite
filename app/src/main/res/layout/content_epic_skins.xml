@@ -33,15 +33,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_abstrakt_full" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -73,15 +73,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_alpine_ace_chn_hd" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -113,15 +113,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_alpine_ace_gbr_hd" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -153,15 +153,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_alpine_ace_hd" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -193,15 +193,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_alpine_ace_usa_hd" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -233,15 +233,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_brite_gunner_full" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -273,15 +273,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_burnout" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -313,15 +313,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_funk_ops" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -353,15 +353,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_ginger_gunner_hd" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -393,15 +393,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_highland_warrior" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -433,15 +433,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_mission_specialist_hd" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -473,15 +473,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_mogul_master_can" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -513,15 +513,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_mogul_master_fra" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -553,15 +553,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_mogul_master_ger" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -593,15 +593,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_mogul_master_usa" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -633,15 +633,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_rabbit_raider_full" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -673,15 +673,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_rust_lord_hd" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -713,15 +713,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_skull_trooper" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -753,15 +753,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_squad_leader" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -793,15 +793,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_sub_commander" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -833,15 +833,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_tomatohead_full" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -873,15 +873,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/fortnite_outfit_trailblazer_full" />
 
-            <ImageView
-                android:id="@+id/imageView36"
+            <ImageButton
+                android:id="@+id/imageButton36"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -913,8 +913,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView35"
+            <ImageButton
+                android:id="@+id/imageButton35"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
                 android:layout_weight="1"

@@ -26,8 +26,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -49,8 +49,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -79,8 +79,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -102,8 +102,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -132,8 +132,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -155,8 +155,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -185,8 +185,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -208,8 +208,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -238,8 +238,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
@@ -261,8 +261,8 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView"
+                <ImageButton
+                    android:id="@+id/imageButton"
                     android:layout_width="match_parent"
                     android:layout_height="196dp"
                     android:layout_weight="1"
