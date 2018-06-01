@@ -10,9 +10,15 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageButton;
+
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
+import com.google.android.gms.ads.doubleclick.PublisherInterstitialAd;
 
 public class MainMenu extends AppCompatActivity {
-
+    PublisherInterstitialAd mPublisherInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,44 +34,91 @@ public class MainMenu extends AppCompatActivity {
         Button btnPickaxes = (Button) findViewById(R.id.btnPickaxes);
         Button btnSkins = (Button) findViewById(R.id.btnSkins);
 
-        //Creating OnclickListener
+        //Creating OnclickListener in Ads
+
+
+
+
+        //Ads calling
+        mPublisherInterstitialAd = new PublisherInterstitialAd(this);
+        mPublisherInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+
+        mPublisherInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                requestNewInterstitial();
+
+            }
+        });
+
+        requestNewInterstitial();
+
         btnBackblings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openAnotherActivity("Backblings");
+
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
+                    openAnotherActivity("Backblings");
+                } else {
+                    openAnotherActivity("Backblings");
+                }
             }
 
         });
-
         btnGliders.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openAnotherActivity("Gliders");
+
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
+                    openAnotherActivity("Gliders");
+                } else {
+                    openAnotherActivity("Gliders");
+                }
             }
         });
 
         btnPickaxes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openAnotherActivity("Pickaxes");
+
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
+                    openAnotherActivity("Pickaxes");
+                } else {
+                    openAnotherActivity("Pickaxes");
+                }
             }
         });
 
         btnLoadingScreens.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openAnotherActivity("LoadingScreens");
+
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
+                    openAnotherActivity("LoadingScreens");
+                } else {
+                    openAnotherActivity("LoadingScreens");
+                }
             }
         });
 
         btnSkins.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openAnotherActivity("Skins");
+
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
+                    openAnotherActivity("Skins");
+                } else {
+                    openAnotherActivity("Skins");
+                }
             }
         });
 
-    }
+        }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -97,4 +150,12 @@ public class MainMenu extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
+            private void requestNewInterstitial() {
+                PublisherAdRequest adRequest = new PublisherAdRequest.Builder()
+                        .addTestDevice("33BE2250B43518CCDA7DE426D04EE231")
+                        .build();
+
+                mPublisherInterstitialAd.loadAd(adRequest);
+            }
 }
