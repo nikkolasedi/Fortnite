@@ -105,7 +105,9 @@
         <activity
             android:name=".LegendarySkins"
             android:label="@string/title_activity_legendary_skins"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PaypalDonate" />
+        <activity android:name=".PaymentDetails"></activity>
     </application>
 
 </manifest>

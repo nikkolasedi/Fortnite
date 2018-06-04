@@ -33,6 +33,7 @@ public class MainMenu extends AppCompatActivity {
         Button btnLoadingScreens = (Button) findViewById(R.id.btnLoadingScreens);
         Button btnPickaxes = (Button) findViewById(R.id.btnPickaxes);
         Button btnSkins = (Button) findViewById(R.id.btnSkins);
+        Button donate = (Button) findViewById(R.id.donate);
 
         //Creating OnclickListener in Ads
 
@@ -118,6 +119,12 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
+        donate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAnotherActivity("PaypalDonate");
+            }
+        });
         }
 
     @Override

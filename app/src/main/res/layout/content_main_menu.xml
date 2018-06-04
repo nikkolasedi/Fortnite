@@ -88,6 +88,20 @@
         android:textStyle="bold"
         android:typeface="normal" />
 
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:background="#FF3b3f"
+        android:text="Donate"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
 </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
